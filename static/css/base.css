@@ -86,8 +86,17 @@ a:hover, a:focus{
 }
 
 /* ###########################  드랍다운 메뉴 설정들  ########################### */
-.navbar-nav li:hover {
+li:hover {
   background: #53B2A0;
+}
+
+.no:hover {
+  background: #fff;
+}
+
+.nono:hover {
+  background: #fff;
+  color: #000;
 }
 
 .navbar-nav li:hover {
