@@ -5,7 +5,8 @@
 {% block content %}
 <div id="content">
 
-<h2>{{ object.title }}</h2>
+<h2>{{ object.title }}
+<a href="{% url 'blog:index' %}" class="btn btn-primary" role="button">목록</a></h2>
 
 <p class="other_posts">
     {% if object.get_previous_by_modify_date %}
@@ -29,7 +30,7 @@
 {% load tagging_tags %}
 {% tags_for_object object as tags %}
 {% for tag in tags %}
-<a href="{% url 'blog:tagged_object_list' tag.name %}">{{tag.name}}</a> 
+<a href="{% url 'blog:tagged_object_list' tag.name %}">{{tag.name}}</a>
 {% endfor %}
 <a href="{% url 'blog:tag_cloud' %}"><i>[ TagCloud ]</i></a>
 </div>
