@@ -1,0 +1,52 @@
+body{
+  background: white;
+}
+
+.mymenu {
+  width:80%;
+  margin:30px auto;
+}
+
+.welcome{
+  font-size: 13px;
+  padding-right: 15px;
+}
+
+.navbar-default {
+  background: #FFC0A9;
+}
+
+.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus{
+  color: white;
+}
+
+.navbar-default {
+  color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus{
+  color: white;
+}
+
+/* 상단바에 로그인 부분 (비번바꾸기&로그아웃 등) 텍스트 색*/
+.welcome a, a:focus{
+  color: #fff;
+}
+
+
+/* 그 이외의 a태그 색상. */
+a, a:focus {
+  color: #53B2A0;
+}
+
+a:hover, a:focus{
+  color: black;
+}
+
+li:hover {
+  background: #53B2A0;
+}
+
+.dropdown-menu {
+  width: 100px;
+}
