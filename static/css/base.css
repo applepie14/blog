@@ -7,6 +7,7 @@ body{
   margin:30px auto;
 }
 
+
 /* 오른쪽 부분 환영합니다~ 부분 텍스트 컬러 하얗게 */
 .welcome{
   color: white;
@@ -146,6 +147,7 @@ li:hover {
 
 #content {
   margin-left: 50px;
+  width: 80%;
 }
 
 
